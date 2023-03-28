@@ -1,0 +1,158 @@
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    /* background-color: aquamarine; */
+  }
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(182, 11, 11, 0.2);
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cat-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    color: #333;
+  }
+  
+  .cat-img {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: brightness(0.9) grayscale(1);
+  }
+  
+  .cat-btn:hover .cat-img {
+    transform: scale(1.05);
+    filter: brightness(1) grayscale(0);
+  }
+  
+  .cat-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 8px;
+    background-color: #008080;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    z-index: 1;
+  }
+  
+  .cat-name {
+    margin-top: 16px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  .cat-btn:hover .cat-name {
+    color: #008080;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .cat-img {
+      height: 150px;
+    }
+    .cat-badge {
+      font-size: 1rem;
+      padding: 2px 4px;
+      top: 8px;
+      right: 8px;
+    }
+    .cat-name {
+      font-size: 1.2rem;
+    }
+  }
+  .cat-btn:hover .cat-img {
+    transform: scale(1.05);
+    filter: brightness(1) grayscale(0);
+  }
+  
+
+.card:hover {
+    background-color:antiquewhite;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cat-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    color: #333;
+  }
+  
+  .cat-img {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: brightness(0.9) grayscale(1);
+  }
+  
+  .cat-btn:hover .cat-img {
+    transform: scale(1.05);
+    filter: brightness(1) grayscale(0);
+  }
+  
+  .cat-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 8px;
+    background-color: #008080;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    z-index: 1;
+  }
+  
+  .cat-name {
+    margin-top: 16px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  .cat-btn:hover .cat-name {
+    color: #008080;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .cat-img {
+      height: 150px;
+    }
+    .cat-badge {
+      font-size: 1rem;
+      padding: 2px 4px;
+      top: 8px;
+      right: 8px;
+    }
+    .cat-name {
+      font-size: 1.2rem;
+    }
+  }
+  
