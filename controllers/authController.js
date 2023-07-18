@@ -12,14 +12,14 @@ export const registerController = async (req, res) => {
       }
       
       //check user
-      const exisitingUser = await userModel.findOne({ email });
+      // const exisitingUser = await userModel.findOne({ email });
       //exisiting user
-      if (exisitingUser) {
-        return res.status(200).send({
-          success: false,
-          message: "Already Register please login",
-        });
-      }
+      // if (exisitingUser) {
+      //   return res.status(200).send({
+      //     success: false,
+      //     message: "Already Register please login",
+      //   });
+      // }
       //register user
       // const hashedPassword = await hashPassword(password);
       //save
