@@ -4,11 +4,9 @@ import { comparePassword, hashPassword } from './../helpers/authHelper.js';
 import JWT from "jsonwebtoken";
 export const registerController = async (req, res) => {
     try {
-      const { name,email, password} = req.body;
+      const { name, password} = req.body;
       //validations
-      if (!email) {
-        return res.send({ message: "Email is not Required" });
-      }
+     
       if (!password) {
         return res.send({ message: "Password is Required" });
       }
@@ -27,7 +25,6 @@ export const registerController = async (req, res) => {
       //save
       const user = await new userModel({
         name,
-        email,
         password,
       }).save();
   
